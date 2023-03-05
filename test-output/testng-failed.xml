@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [amazon]">
+  <test thread-count="5" name="amazon application Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.amazon.TestCase.Testcase">
+        <methods>
+          <include name="logintest"/>
+          <include name="setup"/>
+          <include name="endExtentReport"/>
+          <include name="setupExtentReport"/>
+        </methods>
+      </class> <!-- com.amazon.TestCase.Testcase -->
+    </classes>
+  </test> <!-- amazon application Test(failed) -->
+</suite> <!-- Failed suite [amazon] -->

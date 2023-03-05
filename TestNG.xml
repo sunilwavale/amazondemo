@@ -1,0 +1,12 @@
+<suite name="amazon">
+ 
+    <test name="amazon application Test">
+        <classes>
+            <parameter name="browser" value="chrome"/>
+            <class name="com.amazon.TestCase.Testcase">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
